@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<style type="text/css">
+		[required]{
+			border-color: red;
+			box-shadow: 6px 2px 0px;
+		}
+		:invalid {
+			border-color: gray;
+			box-shadow: 6px 2px 0px gray;
+		}
+	</style>
+</head>
+<link rel="stylesheet" type="text/css" href="css/formulario.css">
+<body background="Fondos/fondo.jpg">
+<div id="contenedor">
+	<header> 
+		<table  bgcolor="white" width="700px" >
+			<tr>
+				<td>
+					Nombre
+				</td>
+				<td>
+					<input type="text" name="Nombre" required>
+				</td>
+				<td>
+					
+				</td>
+				<td>
+					 1er Apellido
+				</td>
+				<td>
+					<input type="text" required>
+				</td>
+				<td>
+					
+				</td>
+				<td>
+					2do Apellido
+				</td>
+				<td>
+					<input type="text" required>
+				</td>
+				
+			</tr>
+		</table>
+	</header>
+
+
+	<nav> 
+		<table  bgcolor="white" width="700px">
+			<tr>
+				<td>
+					Email
+				</td>
+				<td>
+			<input type="Email" value="usuario@dominio.com" required />
+				</td>
+				<TD>
+					
+				</TD>
+				<td>
+					Grupo
+				</td>
+				<td>
+					<input type="number" step="1" min="0" max="500"
+					value="410" required>
+				</td>
+				<td>
+					
+				</td>
+				<td>
+					Fecha
+				</td>
+				<TD>
+					<input type="date" value="2020-05-05" required>
+				</TD>
+			</tr>
+		</table>
+	</nav>
+	<div id="contenedor2">
+	<section>
+		<table bgcolor="white" width="700px" >
+			<td>
+				
+			</td>
+		
+		
+		</table>
+		<table bgcolor="white" width="700px">
+			<tr>
+			<td>
+				<br>
+			<TABLE border="1px" align="center" bgcolor="f23737">
+				<tr>
+					<td>
+						PREGUNTAS
+					</td>
+				</tr>
+				
+			</TABLE>
+		</td>
+		</tr>
+			<tr>
+				<td>
+					<br>
+					 SEXO (elige una opcion)
+				</td>
+			
+			<tr>
+				<td>
+				<input type="radio" name="SEXO" value="Varon" checked> Hombre
+				</td>
+
+			</tr>
+			<tr>
+				<td>
+				<input type="radio"  name="SEXO" value="Hembra" checked> Mujer
+				</td>
+				
+			</tr>
+			<tr>
+				
+			</tr>
+			<tr>
+				<td>
+					<br>
+					ESTUDIOS (elige una opcion)
+				</td>
+				<tr>
+				<td>
+				<input type="radio" name="ESTUDIOS" value="primaria" checked> Primaria
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<input type="radio" name="ESTUDIOS" value="prepa" checked> Preparatoria
+				</td>
+			</tr><tr>
+				<td>
+				<input type="radio" name="ESTUDIOS" value="universidad" checked> Universidad
+				</td>
+			</tr>
+			<tr>
+				
+			</tr>
+			<tr>
+				<td>
+					<br>
+					HERMANOS (elige una opcion)
+				</td>
+				<tr>
+					<td>
+						<input type="radio" name="HERMANOS" value="si" checked> Si
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="radio" name="HERMANOS" value="no" checked> No
+					</td>
+				</tr>
+			</tr>
+			<tr>
+				<td>
+					<br>
+					TRABAJAS (elige una opcion)
+				</td>
+				<tr>
+					<td>
+						<input type="radio" name="TRABAJAS" value="si" checked> Si
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="radio" name="TRABAJAS" value="no" checked> No
+					</td>
+				</tr>
+			</tr>
+			<tr>
+				<td>
+					<br>
+					VIVES CON TUS PAPAS (elige una opcion)
+				</td>
+				<tr>
+					<td>
+						<input type="radio" name="VIVES" value="si" checked> Si
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="radio" name="VIVES" value="no" checked> No
+
+					</td>
+				</tr>
+			</tr>
+		</table>
+	</section>
+
+</div>
+<footer>
+	<table  bgcolor="white" width="700px">
+
+	<tr><td>Irma Guadalupe De Ita Fonseca
+		</td>
+		<td>
+			<input type="submit" value="Enviar" >
+		</td>
+		<td>
+			<input type="reset"  value="Borrar" >
+		</td>
+	</tr> 
+	</table>
+</footer>
+</div>
+
+</body>
+</html>
